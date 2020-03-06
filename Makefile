@@ -51,4 +51,4 @@ debian-live.iso: scratch
         /boot/grub/bios.img=scratch/bios.img
 
 clean:
-	sudo rm -rf chroot.tmp chroot image *.iso
+	sudo rm -rf chroot.tmp chroot image *.iso scratch
